@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// Full Calendar
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
+@import '~vue2-datepicker/scss/index.scss';
+
+@import "~vue-toastification/dist/index.css";
+
+.is-invalid .mx-input{
+    border-color: #E3342F !important;
+}
+
+.is-invalid .invalid-feedback{
+    display: block;
+}
